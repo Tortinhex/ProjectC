@@ -22,7 +22,7 @@ int main(void) {
     int optO = 0;
     
     printf("(O)Otimo (B)Bom (M)Medio (R)ruim (P)pessimo (A)Finalizar: \n>");
-    for(int key = 0; key < 100; key++) {
+    while(1) {
         scanf("%c", &aux);
 
         /*
