@@ -51,25 +51,25 @@ int main(void) {
         switch(aux) {
             case 'P':
                 optP++;
-                total++;
                 break;
             case 'R':
                 optR++;
-                total++;
                 break;
             case 'M':
                 optM++;
-                total++;
                 break;
             case 'B':
                 optB++;
-                total++;
                 break;
             case 'O':
                 optO++;
-                total++;
                 break;
+            default:
+                printf("Digite um número válido!\n>");
+                continue;
+                
         }
+        total++;
         printf(">");
     }
     
