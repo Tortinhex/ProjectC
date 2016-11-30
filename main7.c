@@ -22,9 +22,9 @@ int main(void) {
     scanf("%d", &ano);
     
     if(ano % 4 == 0 && (ano % 400 == 0 || ano % 100 != 0)) {
-        printf("\n O ano %d é bissexto!", ano);
+        printf("\n O ano %d é bissexto!\n", ano);
     }else{
-        printf("\n O ano %d não é bissexto!", ano);
+        printf("\n O ano %d não é bissexto!\n", ano);
     }
     
     return (EXIT_SUCCESS);

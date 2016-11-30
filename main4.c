@@ -22,8 +22,8 @@ int main(void) {
     for(int key = 0; key < 10; key++) {
         
         if(digit == numeros[key]) {
-            printf("\nO número %d foi encontrado na posição %d do array 'numeros'", digit, key);
-            aux = 1;
+            printf("\nO número %d foi encontrado na posição %d do array 'numeros'\n", digit, key);
+            aux = 1; 
         }
     }
     

@@ -35,7 +35,7 @@ int main(void) {
         }
 
         if(PASSWORD == data) {
-            printf("Acesso Liberado!");
+            printf("Acesso Liberado!\n");
             break;
         }
         
